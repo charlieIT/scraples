@@ -1,0 +1,9 @@
+include Makefile CHANGES LICENSE
+
+graft artwork
+graft tests
+graft examples
+graft docs
+prune docs/_build
+
+global-exclude *.py[co] .DS_Store
